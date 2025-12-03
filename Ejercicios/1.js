@@ -2,7 +2,7 @@
 Ejercicio 31:
 
 Crea un semáforo con tres Luces (rojo, amarillo y verde)
-Haz los circulos del semáforo con HTML y CSS.
+Haz los circulos del semáforo con HTML y CSS. 
 
 Cuando un peatón quiere cruzar la calle debe pulsar un botón.
 Crea un botón para cambiar el color de las luces del semáforo
@@ -14,3 +14,26 @@ Cuando haces click en el botón, pasará a amarillo.
 Al hacer click otra vez, pasa a verde, y así todo el rato.
 
 */
+
+let boton = document.querySelector("#boton");
+
+let luces = document.querySelectorAll(".luz");
+
+let estado = 0;
+
+boton.addEventListener("click", () => {
+  // 1. apagar todas las luces
+  luces.forEach((valor) => {
+    valor.classList.remove("activa");
+  });
+
+  // 2. encender la luz del estado actual
+  luces[estado].classList.add("activa");
+
+  // 3. avanzar al siguiente estado
+  estado++;
+
+  if (estado > 2) {
+    estado = 0;
+  }
+});
