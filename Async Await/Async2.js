@@ -7,7 +7,9 @@ async function pokemon() {
     // El objeto va a la izquierda, la clave entre corchetes.
 
     for (const key in datos) {
-      console.log(`su nombre es: ${datos.name} y su ${datos.weight}`);
+      console.log(
+        `su nombre es: ${datos.name} y su peso es de: ${datos.weight}`
+      );
 
       //   if (typeof datos[key] == "string") {
       //     console.log(key + " " + datos[key]);
