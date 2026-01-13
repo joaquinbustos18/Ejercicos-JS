@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="layaout">
-      <header class="layaout__header">
+    <div class="layout">
+      <header class="layout__header">
         <div class="header__logo">
           <h1 class="logo__text">Proyecto js</h1>
         </div>
@@ -34,11 +34,188 @@
         </nav>
       </header>
 
-      <section class="layaout__slider"></section>
+      <section class="layout__slider">
+        <button class="slider__btn-prev">
+          <i class="fa-solid fa-caret-left"></i>
+        </button>
 
-      <main class="layaout__article"></main>
+        <div class="slider__slides">
+          <div class="slides__item slides__item--active">
+            <img class="slides__img" src="img/hojas.jpg" alt="" />
+          </div>
 
-      <aside class="layaout__aside"></aside>
+          <div class="slides__item">
+            <img class="slides__img" src="img/cielo.jpg" alt="" />
+          </div>
+
+          <div class="slides__item">
+            <img class="slides__img" src="img/rojo.jpg" alt="" />
+          </div>
+        </div>
+
+        <button class="slider__btn-next">
+          <i></i>
+        </button>
+      </section>
+
+      <main class="layout__articles">
+        <article class="articles__article">
+          <h3 class="article__title">Articulo de prueba 1</h3>
+          <span class="article__date">9/01/26</span>
+          <p class="article__body">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+            nobis at aliquid est aspernatur consequatur sunt earum? Consequatur
+            repellat sit soluta, incidunt quo debitis nisi sed. Beatae vel ea
+            perspiciatis.
+          </p>
+          <button class="article__btn">Leer Mas</button>
+        </article>
+      </main>
+      <main class="layout__articles">
+        <article class="articles__article">
+          <h3 class="article__title">Articulo de prueba 2</h3>
+          <span class="article__date">9/01/26</span>
+          <p class="article__body">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+            nobis at aliquid est aspernatur consequatur sunt earum? Consequatur
+            repellat sit soluta, incidunt quo debitis nisi sed. Beatae vel ea
+            perspiciatis.
+          </p>
+          <button class="article__btn">Leer Mas</button>
+        </article>
+      </main>
+
+      <main class="layout__articles">
+        <article class="articles__article">
+          <h3 class="article__title">Articulo de prueba 3</h3>
+          <span class="article__date">9/01/26</span>
+          <p class="article__body">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+            nobis at aliquid est aspernatur consequatur sunt earum? Consequatur
+            repellat sit soluta, incidunt quo debitis nisi sed. Beatae vel ea
+            perspiciatis.
+          </p>
+          <button class="article__btn">Leer Mas</button>
+        </article>
+      </main>
+
+      <main class="layout__articles">
+        <article class="articles__article">
+          <h3 class="article__title">Articulo de prueba 4</h3>
+          <span class="article__date">9/01/26</span>
+          <p class="article__body">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+            nobis at aliquid est aspernatur consequatur sunt earum? Consequatur
+            repellat sit soluta, incidunt quo debitis nisi sed. Beatae vel ea
+            perspiciatis.
+          </p>
+          <button class="article__btn">Leer Mas</button>
+        </article>
+      </main>
+
+      <main class="layout__articles">
+        <article class="articles__article">
+          <h3 class="article__title">Articulo de prueba 5</h3>
+          <span class="article__date">9/01/26</span>
+          <p class="article__body">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+            nobis at aliquid est aspernatur consequatur sunt earum? Consequatur
+            repellat sit soluta, incidunt quo debitis nisi sed. Beatae vel ea
+            perspiciatis.
+          </p>
+          <button class="article__btn">Leer Mas</button>
+        </article>
+      </main>
+
+      <main class="layout__articles">
+        <article class="articles__article">
+          <h3 class="article__title">Articulo de prueba 6</h3>
+          <span class="article__date">9/01/26</span>
+          <p class="article__body">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+            nobis at aliquid est aspernatur consequatur sunt earum? Consequatur
+            repellat sit soluta, incidunt quo debitis nisi sed. Beatae vel ea
+            perspiciatis.
+          </p>
+          <button class="article__btn">Leer Mas</button>
+        </article>
+      </main>
+
+      <main class="layout__articles">
+        <article class="articles__article">
+          <h3 class="article__title">Articulo de prueba 7</h3>
+          <span class="article__date">9/01/26</span>
+          <p class="article__body">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+            nobis at aliquid est aspernatur consequatur sunt earum? Consequatur
+            repellat sit soluta, incidunt quo debitis nisi sed. Beatae vel ea
+            perspiciatis.
+          </p>
+          <button class="article__btn">Leer Mas</button>
+        </article>
+      </main>
+
+      <aside class="layout__aside">
+        <header class="aside__header">
+          <div class="header__container-title">
+            <h3 class="header__title">
+              <span class="title__span">Quien soy?</span>
+            </h3>
+          </div>
+          <div class="header__container-img">
+            <img class="header__Img" src="img/caracol.jpg" alt="" />
+          </div>
+
+          <p class="header__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam iusto
+            quis quia tempora explicabo animi. Quia repellat a deserunt libero
+            sed id, sint earum ducimus iusto rerum provident neque soluta!
+          </p>
+        </header>
+
+        <form action="" class="aside__login">
+          <div class="login__container-title">
+            <h3 class="login__title">
+              <span class="login__span">Identificate</span>
+            </h3>
+          </div>
+
+          <div class="login__form-group">
+            <label class="login__label" for="name">Nombre:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="login__input"
+              required
+            />
+          </div>
+
+          <div class="login__form-group">
+            <label class="login__label" for="name">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="login__input"
+              required
+            />
+          </div>
+
+          <div class="login__form-group">
+            <label class="login__label" for="pass">Contra:</label>
+            <input
+              type="password"
+              id="pass"
+              name="pass"
+              class="login__input"
+              required
+            />
+          </div>
+
+          <input type="button" value="Entrar" class="login__submit" />
+        </form>
+      </aside>
     </div>
 
     <footer class="footer">
