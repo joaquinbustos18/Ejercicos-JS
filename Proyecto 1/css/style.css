@@ -15,12 +15,28 @@ body {
     "header header"
     "slider slider"
     "main aside";
-
   grid-template-columns: 70% 30%;
+  max-width: 80rem;
+  background-color: white;
+  padding: 3rem;
+  margin: 3rem auto;
 }
 
 .layout__header {
   grid-area: header;
+  margin-bottom: 2rem;
+}
+
+.header__logo {
+  display: inline-block;
+  margin-bottom: 2rem;
+  padding: 0.5rem 1, 5rem;
+  background-color: lightblue;
+}
+
+.logo__text {
+  color: white;
+  font-size: 3rem;
 }
 
 .layout__slider {
