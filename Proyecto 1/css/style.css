@@ -304,3 +304,15 @@ body {
 .theme__blue {
   background-color: blue;
 }
+
+.theeme__green--active {
+  color: green;
+}
+
+.theeme__red--active {
+  color: red;
+}
+
+.theeme__blue--active {
+  color: blue;
+}
